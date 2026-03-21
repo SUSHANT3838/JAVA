@@ -12,5 +12,12 @@ public class PreFunction {
         System.out.println("Name in LowwerCase -> "+ name.toLowerCase());
         // print length 
         System.out.println("Length of name -> " + name.length());
+        // access all ele through index
+        for(int i=0; i<name.length(); i++){
+            System.out.println(name.charAt(i));
+        }
+        // compare two string
+        String name1 = "Shete";
+        System.out.println(name.compareTo(name1));
     }
 }
