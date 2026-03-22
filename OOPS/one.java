@@ -41,9 +41,12 @@ public class one {
         p1.out();
 
         // Construction call with parameter
+        // object created using class
         Student s1 = new Student();
+        // assigning the value
         s1.name = "Sushant";
         s1.age = 20;
+        
         Student s2 = new Student(s1);// copy constructor
         s2.PrintInfo();
     }
